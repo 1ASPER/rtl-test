@@ -1,0 +1,27 @@
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.feedback-form label {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.feedback-form input, .feedback-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.feedback-form button {
+    align-self: flex-start;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
